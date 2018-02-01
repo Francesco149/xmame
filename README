@@ -1,3 +1,10 @@
+patched version of the old xmame that backports the looping siren
+bugfix for tgm1 and a few other games.
+
+this particular version of mame (apparently based on 0.106) should
+have lower input latency with tgm1. linux-only, on windows you
+should use mame 0.99 for optimal latency
+
 
  *********************
  ** XMAME / XMESS **
