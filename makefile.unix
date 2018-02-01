@@ -576,7 +576,7 @@ SYSCONFDIR = $(XMAMEROOT)
 ###########################################################################
 
 # i386, GNU asm
-MY_CPU = i386
+#MY_CPU = i386
 
 # i386, no asm -- needed for the Intel C++ compiler, which does not fully
 # understand GCC's inline assembly syntax, though you may still enable 
@@ -588,7 +588,7 @@ MY_CPU = i386
 # MY_CPU = ia64
 
 # Opteron/Athlon64
-# MY_CPU = amd64
+MY_CPU = amd64
 
 # Intel EM64T
 # MY_CPU = em64t
