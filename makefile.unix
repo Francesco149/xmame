@@ -127,7 +127,7 @@ CFLAGS =
 ###########################################################################
 
 # GCC on x86
-CFLAGS = -O2
+CFLAGS = -O3
 
 # GCC on x86 with some optimizations
 # CFLAGS = -O2 -mtune=i686 -fomit-frame-pointer -fstrength-reduce -ffast-math
