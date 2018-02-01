@@ -765,7 +765,7 @@ X11_XV = 1
 # X11_DGA = 1
 
 # Build support for OpenGL rendering into the X-Window version
-# X11_OPENGL = 1
+X11_OPENGL = 1
 
 # Build support for rendering through Glide into the X-Window version
 # X11_GLIDE = 1
