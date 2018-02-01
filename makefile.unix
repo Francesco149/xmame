@@ -670,11 +670,11 @@ ARCH  = linux
 
 # Enable the standard joystick driver, which should work in Linux, OpenBSD, 
 # NetBSD, and FreeBSD.
-# JOY_STANDARD = 1
+JOY_STANDARD = 1
 
 # Linux FM-TOWNS game pad joystick emulation support.  Thanks to Osamu 
 # Kurati.
-# JOY_PAD = 1
+JOY_PAD = 1
 
 # NetBSD/FreeBSD USB joystick support.
 # JOY_USB = 1
@@ -683,7 +683,7 @@ ARCH  = linux
 # JOY_PS2 = 1
 
 # SDL joystick support.
-# JOY_SDL = 1
+JOY_SDL = 1
 
 # This will enable the use of the Happ Controls UGCI(tm) USB devices'
 # Coin/Start inputs using the libugci library available from
